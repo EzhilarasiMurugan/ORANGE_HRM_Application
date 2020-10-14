@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM Test Suite" duration-ms="53644" started-at="2020-10-14T07:41:24Z" finished-at="2020-10-14T07:42:17Z">
+    <groups>
+    </groups>
+    <test name="DashboardTestCase" duration-ms="20205" started-at="2020-10-14T07:41:24Z" finished-at="2020-10-14T07:41:44Z">
+      <class name="TestCases.Test_Pending_Leave_Request">
+        <test-method status="PASS" signature="login()[pri:0, instance:TestCases.Test_Pending_Leave_Request@34c75a]" name="login" is-config="true" duration-ms="14585" started-at="2020-10-14T07:41:24Z" finished-at="2020-10-14T07:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="verifyPendingLeaveRequest()[pri:0, instance:TestCases.Test_Pending_Leave_Request@34c75a]" name="verifyPendingLeaveRequest" duration-ms="5516" started-at="2020-10-14T07:41:38Z" finished-at="2020-10-14T07:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPendingLeaveRequest -->
+      </class> <!-- TestCases.Test_Pending_Leave_Request -->
+    </test> <!-- DashboardTestCase -->
+    <test name="RecuirtmentsTestCase" duration-ms="30970" started-at="2020-10-14T07:41:46Z" finished-at="2020-10-14T07:42:17Z">
+      <class name="TestCases.Test_Recuirments">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestCases.Test_Recuirments@15530b9]" name="launchBrowser" is-config="true" duration-ms="29901" started-at="2020-10-14T07:40:54Z" finished-at="2020-10-14T07:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="check_Vacancies()[pri:0, instance:TestCases.Test_Recuirments@15530b9]" name="check_Vacancies" duration-ms="30955" started-at="2020-10-14T07:41:46Z" finished-at="2020-10-14T07:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check_Vacancies -->
+        <test-method status="PASS" signature="ClosingBrowser()[pri:0, instance:TestCases.Test_Recuirments@15530b9]" name="ClosingBrowser" is-config="true" duration-ms="3318" started-at="2020-10-14T07:42:17Z" finished-at="2020-10-14T07:42:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClosingBrowser -->
+      </class> <!-- TestCases.Test_Recuirments -->
+    </test> <!-- RecuirtmentsTestCase -->
+  </suite> <!-- HRM Test Suite -->
+</testng-results>
