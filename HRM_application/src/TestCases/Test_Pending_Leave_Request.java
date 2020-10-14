@@ -28,8 +28,6 @@ public class Test_Pending_Leave_Request extends Browser_Launching_And_Closing_Fu
 	{
 		PageFactory.initElements(driver, Dashboard_Page_Objects.class);
 		Dashboard_Page_Objects.Dashboard.click();
-		/*String actualMessage = Dashboard_Page_Objects.PendingLeaveRequest.getText();
-		Assert.assertEquals(actualMessage, "No Records are Available");*/
 	     if(Dashboard_Page_Objects.PendingLeaveRequestList.isEmpty()) 
 	     {
 	    	 System.out.println("No PendingLeaveRequest");
